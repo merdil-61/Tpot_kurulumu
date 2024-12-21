@@ -1,4 +1,5 @@
 **Tpot_kurulum Projesi İçeriği**
+
 İstka destekli İstanbul Gelişim Üniversitesi Siber Akademi kapsamında hazırlamış olduğum proje 3 kısımdan oluşmaktadır.
 
 Özet 
