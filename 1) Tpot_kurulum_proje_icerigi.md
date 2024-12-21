@@ -2,15 +2,15 @@
 
 İstka destekli İstanbul Gelişim Üniversitesi Siber Akademi kapsamında hazırlamış olduğum proje 3 kısımdan oluşmaktadır.
 
-Özet 
+ÖZET
 
-Summary
+SUMMARY
 
 Teşekkür
 
 Beyan
 
-1. Giriş
+GİRİŞ
    
    Tpot honeypot Nedir?
    
@@ -20,7 +20,7 @@ Beyan
    
    Literatürde yapılmış çalışmalar
    
-2.Materyal ve metot
+MATERYAL VE METOT
 
 2.1. Materyal
 
@@ -32,15 +32,15 @@ Beyan
 
    Tpot honeypot kurulumu
    
-3.Sonuç ve tartışma
+SONUÇ VE TARTIŞMA
 
-3.1.  nmap taraması
+ nmap taraması
 
-3.2.  DDOS saldırısı
+ DDOS saldırısı
 
-3.3.  Wireshark incelemesi
+ Wireshark incelemesi
 
-3.4. Tpot honeypot ile saldırı sonuçlarının incelenmesi
+ Tpot honeypot ile saldırı sonuçlarının incelenmesi
 
    Cowrie
    
