@@ -71,12 +71,14 @@ Tablo 1. Tpot honeypot kurulum gereksinimleri (Url-10)
 ![t_pot_neypot_port ve işlevlere göre_ayrım](https://github.com/user-attachments/assets/461c76bd-b29f-48a9-a157-2188f156219a)
 
 Kötü niyetli saldırganların bırakmış olduğu log kayıtlarına göre Tpot için ağ trafiğini izleme ve ilgili port ve protokole göre yönetimi Tablo 2 de gösterilmiştir. 
+
 Protokole bağlı port ve yönelime göre nasıl bir tpot honeypote saldırdığı görülmektedir (Url-10).
 
 SaaS hizmetlerinin bağlantı noktaları ve kullanılabilirliği coğrafi konumunuza göre değişebilir. Bazı bal küplerinin tam işlevselliğe ulaşması için (örneğin Cowrie veya Log4Pot) saldırganın kötü amaçlı yazılımını indirebilmeleri için giden bağlantılar da gereklidir. T-Pot, Debian (Stable) ağ yükleyicisine dayanmaktadır. Bal küpü daemonlarının yanı sıra diğer destek bileşenleri de yerleştirilmiştir. Bu, T-Pot'un aynı ağ arayüzünde birden fazla bal küpü daemonunu ve aracını çalıştırmasına izin verirken, küçük bir ayak izini korur ve her bal küpünü kendi ortamında sınırlar (Çiroğlu, 2020). 
 T-POT, ücretsiz olarak dağıtılmaktadır. Güncel derlenmiş kurulum dosyasını “https://github.com/ telekom-security/tpotce” web sitesinden debian12 iso dosyası indirilmiştir. İndirilmiş olan iso dosyasını sanal makineye yükleme ve kurulum işlemleri gerçekleştirilmiştir. Ancak debian12 iso dosyasında ssh ayarlamalarında sorun yaşandığından dolayı Ubuntu ıso dosyası ile kurulumda gerekli ssh ayarlamaları ile cockpit ve web erişim sistemlerine erişilmiştir (Url-10). 
 
 ![ubuntu_ıso_dosyası_yuleme_1](https://github.com/user-attachments/assets/ecde9101-c330-4235-b09c-086c1b478f3c)
+
 Ubuntu ıso dosyasının sanal makineye yüklenmesi işlemi
 
 
@@ -84,12 +86,15 @@ Ubuntu ıso dosyasının sanal makineye yüklenmesi işlemi
 Ubuntu dil ve klavye ayarlaması Şekilde gösterilmektedir.
 
 ![ubuntu_serve_dyasi_proxysiz_yukleme](https://github.com/user-attachments/assets/242a4a07-a58f-4e1f-bf72-1734312d682b)
+
 Ubuntu server dosyasının ve proxysiz dosyanın yüklenmesi Şekilde gösterilmektedir.
 
 ![ubuntu_ıso_dosyası_yukleme_son_islem](https://github.com/user-attachments/assets/9baa9ed9-0f41-4791-8708-9fa5410d4e41)
+
 Ubuntu ıso dosyasının sanal makine yüklemek için gerekli son işlemler Şekilde gösterilmektedir.
 
 ![T_pot_installer_kurulumu](https://github.com/user-attachments/assets/861f525c-883a-4c5f-8c51-24f3e1d1bb17)
+
 Şekil. Tpot installer(kurulumu)
 
 Sanal makineye Ubuntu server ıso dosyası kurulumu ve gerekli işlemlerin yapılmasından sonra tpot kurulumu işlemlerine geçilmiştir. 
@@ -127,24 +132,31 @@ Tpot sanal makinesi açıldığında ubuntunun server ekranı Şekilde görülme
 Tpot honeypota ait ip adresini öğrenmek için ip a veya ifconfig yazarak ens 33 de yer alan ip adresi öğrenilmektedir.
 
 ![T_potun serverdeki çalışma durumu](https://github.com/user-attachments/assets/98f52ac6-47e4-46d5-ba48-fd5f2029ee78)
+
 Ubuntu serverde tpotu başlatmak için sudo systemctl start tpot denilerek sistem başlatılır. 
 Sistemin çalışır olup olmadığını sudo systemctl status tpot denilerek sorgulanmaktadır.
 
 ![weberisimsistemi](https://github.com/user-attachments/assets/52f2d036-2c6a-41bb-a12a-8855d357376d)
+
 https://ip adresi:64293 ile web erişim (ubuntu) sistemine girilmiştir. Kullanıcı adı ve şifre ile  sisteme girilmektedir.
 
 ![Web_sisteminde_yer alan_terminalden sistemin_calıstıgını gosteren_komut_ve_ciktilar](https://github.com/user-attachments/assets/bb694332-273b-4c5f-b6a2-934cdf2f708e)
+
 Web sisteminde yer alan terminalden sistemin çalıştığını gösteren komut ve çıktılar Şekilde görülmektedir.
 
 ![T_pot_ekranına_ulasmak_icin_sisteme](https://github.com/user-attachments/assets/bdc8c2dc-c50a-4940-86a8-2c6a36de9c59)
+
 https://ip adresi:64297 yazılarak aşağıda yer alan ip adresi sistemine ilerle (güvenli değil) basılarak  sisteme geçiş yapılır (Şekil ). 
 Yan taraftaki sekmeden https://ip adresi:64297 ile web erişim ekranına(kibanaya) erişme ekranına gerekli kullanıcı adı ve şifre yazılarak kibana ekranına ulaşılmaya gidilmektedir.
 
 ![T_pot_kibana_ekrani](https://github.com/user-attachments/assets/1a2c8a6e-b3ca-4adf-a942-91b650e88a77)
+
 https://ip adresi:64297 ile Tpot cockpit erişim ekranına ulaşılmıştır. Bu ekranda Attack Map, Cyberchef, Elasticvue, Kibana, Spiderfoot, SecurityMeter, T-pot Readme, T-pot @ Github bölümlerinden oluşmaktadır.
 
 ![Elastic_ekran](https://github.com/user-attachments/assets/bde62a16-2054-4104-8f8d-6a0bb0b58d7b)
+
 Dashboards ekranı
+
 “Kibana” > Dashboard > “T-Pot” olarak sırasıyla tıklanıp saldırının etkisine bakılarak grafik ve sonuçlar analiz edilir.
 
 
