@@ -105,8 +105,10 @@ Ancak debian12 iso dosyasında ssh ayarlamalarında sorun yaşandığından dola
 
 Ubuntu ıso dosyasının sanal makineye yüklenmesi işlemi
 
-Ubuntu ıso dosyasını yükler iken NAT formatında yüklenir.Yükleme bittikten sonra  bridge olarak sistemde ayar değiştirilir.Çünkü bridge ile sistemler dinlenenebilir.
+Ubuntu ıso dosyasını yükler iken NAT formatında yüklenir. Yükleme bittikten sonra  bridge olarak sistemde ayar değiştirilir. Çünkü bridge ile sistemler dinlenenebilir.
+
 ![ubuntu_dil_ayari](https://github.com/user-attachments/assets/59a07bdd-c4db-43b4-aff9-4388255c03c4)
+
 Ubuntu dil ve klavye ayarlaması Şekilde gösterilmektedir.
 
 ![ubuntu_serve_dyasi_proxysiz_yukleme](https://github.com/user-attachments/assets/242a4a07-a58f-4e1f-bf72-1734312d682b)
@@ -182,9 +184,3 @@ https://ip adresi:64297 ile Tpot cockpit erişim ekranına ulaşılmıştır. Bu
 Dashboards ekranı
 
 “Kibana” > Dashboard > “T-Pot” olarak sırasıyla tıklanıp saldırının etkisine bakılarak grafik ve sonuçlar analiz edilir.
-
-
-
-
-
-
