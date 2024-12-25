@@ -29,8 +29,7 @@ Ağ trafiği izleme aracı olarak toplam kaç paketin gönderildiği ve hangi po
 
 **Tpot Honeypot İncelemesi**
 
-
-
+![Honeypot_attack_sonuc](https://github.com/user-attachments/assets/5ec8b514-5902-4afd-b67a-bd91cdcd2172)
 
 *Honeypot attacks bar ve histogram grafiği**
 
