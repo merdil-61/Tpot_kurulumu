@@ -128,7 +128,7 @@ Tpot kurulumu için ilk başta “ git clone https://github.com/telekom-security
 
 “~/tpotce/install.sh” ile Tpot installer işlemlerine Şekil de görüldüğü gibi installe y (yes) denilenerek Tpot kurulumuna başlanmış oldu.
 
-![T_pot_tipi_secimi](https://github.com/user-attachments/assets/fabe837d-89f1-47b1-8905-20c107bb34bb)
+![Tpot_installer yüklemesi](https://github.com/user-attachments/assets/962e7e2d-637e-4d20-8152-ed1349de85e4)
 
 Tpot kurulumu sonrasında tpot tipi seçimi için (H)ive, (S)ensor, (M)obile gibi üç farklı Tpot tipine göre hive olarak seçim gerçekleştirildi (Şekil).
 
