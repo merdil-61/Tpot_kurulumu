@@ -27,22 +27,36 @@ Ağ performansıyla ilgili sorunları tanımlamada, güvenlik ihlallerini tespit
 Filtreleme özellikleri, üretkenliği hızlandıran değerli bir özellik olan ilgili veri paketlerine odaklanmayı kolaylaştırır. 
 Uzmanlar bu verileri ağ üzerinden geçen her paketi ayrıntılı olarak incelemek ve güvenlik açıklarını bulmak için kullanabilir. 
 
-Birçok bilişim araştırmacısı ağ analizi alanına yeni girmiştir. Çeşitli ağ protokolleri (ARP, CDP, RIP, OSPF) ile ağ trafiği dinlenerek ya da gönderilen paketleri toplayabilen “protokol analizörleri” gibi programlar kullanılarak “koklanabilir”. Bilgisayar ağıyla ilgili suçlarda paket görüntüleyiciler ve ağ odaklı adli bilişim uzmanları (Kent vd., 2006; Url-4; Url-5; Url-6; Url-7). “tcpdump” Unix/Linux işletim sistemi için en iyi bilinen ‘sniffer’ (ağ analizi ve dinleme) programı/komutudur (MEGEP, 2008).  HTTP, HTTPS, POP (Post Office Protocol; Postane Prokolü) , SMTP (Simple Mail Transfer Protocol; Basit Posta Aktarım Protokolü ), Telnet ve SSH dahil olmak üzere çeşitli ağ trafiği türleri aracılığıyla çeşitli veriler toplanabilir.  Ağ trafiğinden sorumlu sistem yöneticileri için e-posta mesajları ve İnternet trafiği gibi veriler çok önemlidir. Ağ üzerinden toplanan verilerdeki değişimler, analizörlerin analiz işlemi sırasında daha az hassas hale gelmesine neden olabilir.  Bu tür durumlara örnek olarak TCP yönlendirme, “proxy” sunucuları, paket yönlendirme, web ve e-posta adları, IP (İnternet Protokolü) adresi ve e-posta adresi ele geçirme, oturum engelleme ve DNS(Domain Name System: Alan adı sistemi) sahteciliği verilebilir (Casey, 2004b; Nikkel, 2005).  Wireshark veri paketlerini kaydeder ve paket yakalama başlatıldığında tüm ağ arayüzlerini dinler. Bu prosedürü yalnızca seçilen arayüzden gelen trafiği analiz edecek şekilde yapılandırarak, verimsiz geniş ağ analizi azaltılabilir ve hedeflenen incelemeler için zaman ve kaynak tasarrufu sağlanabilir. Wireshark programı açık kaynak kodlu ve ücretsizdir. Wireshark bir Windows PC'ye yüklendiğinde, WinPcaP aracı dahil edilir. WinPcaP, Ethernet kartı aracılığıyla aktif internet bağlantısına göz kulak olmasını sağlar. Wireshark arayüzü grafiksel olarak kullanılırken, WinPcaP asıl işi gerçekleştirir.
+Birçok bilişim araştırmacısı ağ analizi alanına yeni girmiştir. Çeşitli ağ protokolleri (ARP, CDP, RIP, OSPF) ile ağ trafiği dinlenerek ya da gönderilen paketleri toplayabilen “protokol analizörleri” gibi programlar kullanılarak “koklanabilir”. 
+Bilgisayar ağıyla ilgili suçlarda paket görüntüleyiciler ve ağ odaklı adli bilişim uzmanları (Kent vd., 2006; Url-4; Url-5; Url-6; Url-7). “tcpdump” Unix/Linux işletim sistemi için en iyi bilinen ‘sniffer’ (ağ analizi ve dinleme) programı/komutudur (MEGEP, 2008).  HTTP, HTTPS, POP (Post Office Protocol; Postane Prokolü) , SMTP (Simple Mail Transfer Protocol; Basit Posta Aktarım Protokolü ), Telnet ve SSH dahil olmak üzere çeşitli ağ trafiği türleri aracılığıyla çeşitli veriler toplanabilir. 
+Ağ trafiğinden sorumlu sistem yöneticileri için e-posta mesajları ve İnternet trafiği gibi veriler çok önemlidir. Ağ üzerinden toplanan verilerdeki değişimler, analizörlerin analiz işlemi sırasında daha az hassas hale gelmesine neden olabilir.  
+Bu tür durumlara örnek olarak TCP yönlendirme, “proxy” sunucuları, paket yönlendirme, web ve e-posta adları, IP (İnternet Protokolü) adresi ve e-posta adresi ele geçirme, oturum engelleme ve DNS(Domain Name System: Alan adı sistemi) sahteciliği verilebilir (Casey, 2004b; Nikkel, 2005).  
+Wireshark veri paketlerini kaydeder ve paket yakalama başlatıldığında tüm ağ arayüzlerini dinler.
+Bu prosedürü yalnızca seçilen arayüzden gelen trafiği analiz edecek şekilde yapılandırarak, verimsiz geniş ağ analizi azaltılabilir ve hedeflenen incelemeler için zaman ve kaynak tasarrufu sağlanabilir. 
+Wireshark programı açık kaynak kodlu ve ücretsizdir. Wireshark bir Windows PC'ye yüklendiğinde, WinPcaP aracı dahil edilir. WinPcaP, Ethernet kartı aracılığıyla aktif internet bağlantısına göz kulak olmasını sağlar. Wireshark arayüzü grafiksel olarak kullanılırken, WinPcaP asıl işi gerçekleştirir.
 
 Wireshark: PCAP (Packet Capture) ve GUI (Graphical User Interface) özelliklere sahiptir. PCAP ile ağ trafiği gözlemlenir. 
 
 GUI ise kolaylıkla kullanılabilir arayüz vermektedir. Wireshark’ın özellikleri şunlardır(Url-4; Url-5; Url-8; Url-9):
 
 •	Kullanımı kolay ve ücretsiz ağ izlemede Windows, Linux ve MacOS gibi çeşitli işletim sistemlerini desteklemektedir.
+
 •	Çeşitli faktörlere dayalı paket filtreleme desteği ve yakalanan paketler çeşitli şekillerde depolanabilir.
+
 •	Birçok şaşırtıcı yeteneği arasında parselleri hızlı bir şekilde yakalama ve gösterme yeteneği de var.
+
 •	Ağ sorunlarını tanımlamak ve düzeltmek için sunduğu kapsamlı verileri kullanır.
+
 •	Belirli protokollerin ağ içinde nasıl davrandığı hakkında analiz hizmetleri sunmaktadır.
+
 •	Performans ve güvenlik değerlendirmesi ile sorunsuz çalışmayı garanti etmek için ağ performansını izler.
+
 Böylece ağ güvenliği risklerini belirler ve değerlendirir.
+
 •	İyi derecede grafik arayüzüne sahiptir ve paketlerin renklendirilmesi vb. ile görsel olarak kolay paket analizine olanak sağlar.
 
 Yapılan çalışmada kaliden nmap taraması yapılarak belirlenen açık portlardan 21, 22, 23 olan portlar dikkate alınarak metasploite DDOS saldırısı telnet olan 23.porta gerçekleştirilmiştir. 
+
 Wireshark da ilgili ıp adresi ve portlara göre filtreleme işlemi yapılarak wireshark incelemesi yapılmıştır.
 
 **Metot**
@@ -52,30 +66,40 @@ Wireshark da ilgili ıp adresi ve portlara göre filtreleme işlemi yapılarak w
 T-pot kurulumu için gereksinimler şunlardır (Url-10):
 
 •	Yeterli bellek kapasitesi (4GB RAM) olmalı
+
 •	Hızlı veri erişimi ve depolama için 60 GB SSD olmalı
+
 •	Dinamik IP adresi ataması için DHCP ( Dynamic Host Configuration Protocol: Dinamik Ana Bilgisayar Yapılandırma Protokolü) ile ağ bağlantısı ve  çalışan proxy kullanılmayan bir internet (web) sayfası olmalıdır.
 
 Kurulum için gerekenler 42 MB boyutunda bir ISO dosyasının indirilmesi gerekir. Kurulum yapılacak sunucunun internete açık durumda olması gereklidir.
+
 T-Pot, hepsi bir arada, isteğe bağlı olarak dağıtılmış, çok kanallı (amd64, arm64) bal küpü platformudur,  20'den fazla honeypotu ve Elastik Yığın, animasyonlu canlı saldırı haritaları ve aldatma deneyimini daha da iyileştirmek için birçok güvenlik aracı kullanarak sayısız görselleştirme seçeneğini destekler (Url-10). 
+
 Sistem gereksinimlerini karşılamak ve T-Pot kurulumu için en az 8-16 GB RAM, 128 GB boş disk alanı ve çalışan (filtrelenmemiş giden) bir internet bağlantısı gerekir(Tablo 1). 
+
 Çalışan, desteklenen bir dağıtım indirin veya kullanın. ISO'yu mümkün olduğunca az paket / hizmet ile yükleyin (ssh gereklidir). 
 
-Tablo 1. Tpot honeypot kurulum gereksinimleri (Url-10)
+**Tablo 1.** Tpot honeypot kurulum gereksinimleri (Url-10)
 
 ![gereksinim](https://github.com/user-attachments/assets/99444de4-e0d1-4ef2-b00d-df1fab839d01)
 
 
- Tablo2. Tpot ve ağ trafiğinde gerekli port ve protokol yönetimi (Url-10)
+**Tablo 2.** Tpot ve ağ trafiğinde gerekli port ve protokol yönetimi (Url-10)
  
-
 ![t_pot_neypot_port ve işlevlere göre_ayrım](https://github.com/user-attachments/assets/461c76bd-b29f-48a9-a157-2188f156219a)
 
 Kötü niyetli saldırganların bırakmış olduğu log kayıtlarına göre Tpot için ağ trafiğini izleme ve ilgili port ve protokole göre yönetimi Tablo 2 de gösterilmiştir. 
 
 Protokole bağlı port ve yönelime göre nasıl bir tpot honeypote saldırdığı görülmektedir (Url-10).
 
-SaaS hizmetlerinin bağlantı noktaları ve kullanılabilirliği coğrafi konumunuza göre değişebilir. Bazı bal küplerinin tam işlevselliğe ulaşması için (örneğin Cowrie veya Log4Pot) saldırganın kötü amaçlı yazılımını indirebilmeleri için giden bağlantılar da gereklidir. T-Pot, Debian (Stable) ağ yükleyicisine dayanmaktadır. Bal küpü daemonlarının yanı sıra diğer destek bileşenleri de yerleştirilmiştir. Bu, T-Pot'un aynı ağ arayüzünde birden fazla bal küpü daemonunu ve aracını çalıştırmasına izin verirken, küçük bir ayak izini korur ve her bal küpünü kendi ortamında sınırlar (Çiroğlu, 2020). 
-T-POT, ücretsiz olarak dağıtılmaktadır. Güncel derlenmiş kurulum dosyasını “https://github.com/ telekom-security/tpotce” web sitesinden debian12 iso dosyası indirilmiştir. İndirilmiş olan iso dosyasını sanal makineye yükleme ve kurulum işlemleri gerçekleştirilmiştir. Ancak debian12 iso dosyasında ssh ayarlamalarında sorun yaşandığından dolayı Ubuntu ıso dosyası ile kurulumda gerekli ssh ayarlamaları ile cockpit ve web erişim sistemlerine erişilmiştir (Url-10). 
+SaaS hizmetlerinin bağlantı noktaları ve kullanılabilirliği coğrafi konumunuza göre değişebilir. 
+
+Bazı honeypotların tam işlevselliğe ulaşması için (örneğin Cowrie veya Log4Pot) saldırganın kötü amaçlı yazılımını indirebilmeleri için giden bağlantılar da gereklidir. 
+T-Pot, Debian (Stable) ağ yükleyicisine dayanmaktadır.Honeypotdaemonlarının yanı sıra diğer destek bileşenleri de yerleştirilmiştir. 
+Bu, T-Pot'un aynı ağ arayüzünde birden fazla honeypot daemonunu ve aracını çalıştırmasına izin verirken, küçük bir ayak izini korur ve her bal küpünü kendi ortamında sınırlar (Çiroğlu, 2020). 
+T-POT, ücretsiz olarak dağıtılmaktadır. Güncel derlenmiş kurulum dosyasını “https://github.com/ telekom-security/tpotce” web sitesinden debian12 iso dosyası indirilmiştir. 
+İndirilmiş olan iso dosyasını sanal makineye yükleme ve kurulum işlemleri gerçekleştirilmiştir. 
+Ancak debian12 iso dosyasında ssh ayarlamalarında sorun yaşandığından dolayı Ubuntu ıso dosyası ile kurulumda gerekli ssh ayarlamaları ile cockpit ve web erişim sistemlerine erişilmiştir (Url-10). 
 
 ![ubuntu_ıso_dosyası_yuleme_1](https://github.com/user-attachments/assets/ecde9101-c330-4235-b09c-086c1b478f3c)
 
