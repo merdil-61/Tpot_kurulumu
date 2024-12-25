@@ -1,6 +1,7 @@
 **SONUC VE TARTIŞMA**
 
 **nmap taramasi**
+
 ![nmap_scan](https://github.com/user-attachments/assets/e8418f29-556d-4f40-aa15-06cb04912b0b)
 ![nmap_scan_2](https://github.com/user-attachments/assets/0581ee2a-06af-49ce-9a87-178922f46203)
 
@@ -17,11 +18,15 @@
 Kaliden metasploitin açık olan portlardan ftp olan 23.porta DDOS saldırı gerçekleştirilmiştir (Şekil ).
 
 **Wireshark İncelemesi**
+
 ![Wireshark filtreleme_1](https://github.com/user-attachments/assets/b1a895bb-d601-4ba0-b2d9-1a2710ddac09)
+
 *Wireshark filtreleme incelemesi**
+
 Wireshark ağ trafiği incelemesinde filtrelemeye göre inceleme yapabilmek için ip.addr== ilgili ip adresi (metasploitin adresi) yazılıp ve deyip incelenmesi istenen portlar köşeli parantezin içine belirtilip dışına tcp.port in {port numaraları} olarak Şekil de görülmektedir. Ağ trafiği izleme aracı olan wireshark da 71341 paketin 99,9% olarak trafik ağı incelemesi gerçekleştirilmiştir.
 
 ![Wireshark_filtreleme_2](https://github.com/user-attachments/assets/35990928-b1e6-4a9a-b09c-2ff16195d66b)
+
 *Wireshark ağ trafiği inceleme**
 
 Yapılan DDOS saldırısı sonrası wiresharktaki yapılan filtreleme sonucu detaylı inceleme sonucu Şekilde görülmektedir. Internet Protocol version 4 de src(source;kaynak) kalinin ip adresi dst(destiantion;son durak) ise metasploitin ip adresi olup 23 port olan telnete saldırının gerçekleştiği görülmektedir. 
