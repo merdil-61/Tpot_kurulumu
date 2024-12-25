@@ -5,15 +5,15 @@
 ![nmap_scan](https://github.com/user-attachments/assets/e8418f29-556d-4f40-aa15-06cb04912b0b)
 ![nmap_scan_2](https://github.com/user-attachments/assets/0581ee2a-06af-49ce-9a87-178922f46203)
 
-**Şekil .** nmap taraması
+**Şekil.** nmap taraması
 
 İlk başta kaliden metasploite ait nmap taraması gerçekleştirilmiştir (Şekil). nmap taraması ile açık portların  belirlenmesinden sonra  yapılan saldırıda wireshark incelemesi için filtrelemede 21(ftp), 22 (ssh) ve 23 (telnet) portlar ve ilgili metasploit ip adresi de dikkate alarak wireshark filtrelemesi yapılmıştır. Kaynağın metasploit olduğu ve açık olan portlar işaretlenmiş olup kırmızı ile işaretli olan ilgili portlara yönelik wireshark filtreleme yapılmıştır.
 
-**DDOS Saldırısı **
+**DDOS Saldırısı**
 
 ![DDOS_saldirisi](https://github.com/user-attachments/assets/615a30c0-b62c-4c6e-a811-031fb331fff0)
 
-**Şekil .** Yapılan DDOS saldırısı
+**Şekil.** Yapılan DDOS saldırısı
 
 Kaliden metasploitin açık olan portlardan ftp olan 23.porta DDOS saldırı gerçekleştirilmiştir (Şekil ).
 
@@ -42,113 +42,74 @@ Kaliden metasploite yapılan saldırı sonrası yapılan saldırının honeypota
 
 ![Ciscoasa tpotda saldırı histogram grafiği](https://github.com/user-attachments/assets/29f1e4c1-2213-4d05-b8ac-3155d148f222)
 
-*Ciscoasa tpotda saldırı histogram grafiği**
+*Ciscoasa tpotda saldırı histogram grafiği*
 
 Tpot honeypot türlerinden olan Ciscoasada saldırının nasıl bir etki değişimine neden olduğuna yönelik histogram grafiği Şekilde gösterilmektedir.
 
-
-
-
-
-
+![Cowrie_attack, bar_ve_histogram_grafikleri](https://github.com/user-attachments/assets/c199f3e5-6d17-4646-928f-922b235a2ca9)
 
 *Cowrie attack, bar ve histogram grafikleri**
 
 Bir saldırgan tarafından gerçekleştirilen kaba kuvvet saldırılarını ve kabuk etkileşimini log olarak kaydetmek için tasarlanmış orta düzeyde etkileşimli bir SSH ve Telnet honeypot olan Cowrie de yapılan saldırı sonrası  bar ve histogram grafikleri Şekilde gösterilmektedir.
 
+![Dioneaya_özel_dashboard_sonuç_grafikleri](https://github.com/user-attachments/assets/3d71c091-b386-441a-bd99-8f16ee770a64)
 
-
-
-
-*Dioneaya özel dashboard sonuç grafikleri**
+*Dioneaya özel dashboard sonuç grafikleri*
 
 Dioneaya özel dashboard sonuç grafikleri Şekilde görülmektedir.
 
-
-
-
-
+![Honeytrap_sonuc](https://github.com/user-attachments/assets/6a65f776-80e1-4c1a-86e0-8b6498fce8e3)
 
 **Honeytrap sonuç*
 
 Saldırı sonrası Tpotun içinde yer alan honeytrap sonuç değişimleri Şekil de görülmektedir.
 
+![NGINX_sonuc](https://github.com/user-attachments/assets/c94412c4-1672-4819-9d65-73a462e9b140)
 
+*NGINX sonuçları*
 
+2002 yılında Rus yazılım mühendisi Igor Sysoev tarafından özgür ve açık kaynak olarak tasarlanmış bir web server yazılımı olan Nginx; Unix tabanlı işletim sistemlerinde çalışmaktadır. Kısıtlı olarak Windows makinelerinde desteği bulunmaktadır. Daha sonra bu yazılım tüm platformlarda kullanılabilir hale getirilen sunucu haline gelmiştir. Özellikle yüksek trafikli ve yoğun istek girişi olan web siteleri için biçilmiş sunucudur. Apache ve Lightpd ile karşılaştırıldığında daha az CPU kullanılır (Deniz, 2017; Demirşen, 2023). Yapılan saldırı sonucu tpot honeypotta nginx dashboard ekranına düşen sonuçlar Şekil de gösterilmektedir. HTTP dairesel grafikte GET ve POST şeklinde sonuçlar görülmektedir.
 
+![suricata_sonuc](https://github.com/user-attachments/assets/50c84044-b090-4a9d-a981-f7f2349699d7)
 
-
-
-**NGINX sonuçları*
-
-2002 yılında Rus yazılım mühendisi Igor Sysoev tarafından özgür ve açık kaynak olarak tasarlanmış bir web server yazılımı olan Nginx; Unix tabanlı işletim sistemlerinde çalışmaktadır. Kısıtlı olarak Windows makinelerinde desteği bulunmaktadır. Daha sonra bu yazılım tüm platformlarda kullanılabilir hale getirilen sunucu haline gelmiştir. Özellikle yüksek trafikli ve yoğun istek girişi olan web siteleri için biçilmiş sunucudur. Apache ve Lightpd ile karşılaştırıldığında daha az CPU kullanılır (Deniz, 2017; Demirşen, 2023). Yapılan saldırı sonucu tpot honeypotta nginx dashboard ekranına düşen sonuçlar Şekil de gösterilmektedir.
-
-
-
-
-
-
-**Suricata sonucu*
+*Suricata sonucu*
 
 Suricata, hem saldırı algılama sistemi hem saldırı önleme sistemi olarak işlev gören ücretsiz, açık kaynak kodlu hızlı, sağlam bir ağ tehdidi algılama motoru olan bir IDS/IPS siber güvenlik aracıdır. Bu gerçek zamanlı saldırı algılama(IDS), saldırı önleme(IPS), ağ güvenliği izleme(NSM) ve çevrimdışı pcap işleme yeteneğine sahiptir. Güçlü, kapsamlı kurallar ve imzalı dilini kullanarak ağ trafiğini inceler ve karmaşık tehditlerin tespiti için güçlü komut dosyası desteğine sahiptir(Hazar, 2020). Tpotda yer alan dashboard kısmında yer alan suricata aracında yaratmış olduğu yapılan saldırının sonuç etkisi Şekilde görülmektedir.
 
-
-
-
-
+![suricata_alert_sonuc](https://github.com/user-attachments/assets/490000ed-8fe9-4cbc-97f8-6aa49c73de20)
 
 *Suricata alert histogramları**
 
 Suricatada yaratılan etkiyi; kategori, port ve ülkelere göre etkileri, histogram grafikleri üzerinde Şekil de gösterilmektedir.
 
-
-
-
-
-
-
+![suricata_http_src_ip_country_results](https://github.com/user-attachments/assets/00583cea-aa4a-4135-bd19-9dbb3b215333)
 
 *Suricata attacker src ıp reputation, http sonuçları ve ülkelerin durumları**
 
 Yapılan saldırıların etkileri suricata saldırgan kaynak ip, http ve ülkelere göre değişimleri gösteren dairesel grafikler Şekilde gösterilmektedir.
 
-
-
-
-
-
-
-
+![suricata_ip_mac_http_sonuclari](https://github.com/user-attachments/assets/9a11efff-67d0-4a35-a18a-a208f76eeb0a)
 
 *Suricata http sonuç grafikleri ve Suricata tpota etki eden ıp, mac adresleri**
 
 Suricata saldırgan etkisini kaynak, web kullanıcı(http)-metotu ve ip mac adreslerine yönelik değişim dairesel grafikler Şekil de gösterilmektedir.
 
-
-
-
-
-
+![suricata_ID_IPve_AS_sonuclari](https://github.com/user-attachments/assets/fd5866d7-d2e7-45dc-af63-1b44c6429016)
 
 *Suricatada ilk 10 a göre ID ve IP adresleri**
 Suricatada ilk 10 a göre ID ve IP adresleri Şekilde gösterilmektedir.
 
-
-
-
-
+![fatt_tpot_sonuc](https://github.com/user-attachments/assets/6f76d352-6f02-4490-aa3e-c4072b1e44b9)
 
 *Fatt tpot sonucu**
 Fatt tpot honeypotun sonucu Şekilde gösterilmektedir.
 
-
-
-
-
-
+![fatt_tpot_ulkelere_gore_durumu](https://github.com/user-attachments/assets/cf22e218-bd80-4ad9-8c9b-19ee9eb9fa25)
 
 *Fatt tpotun ülkelere göre durumları**
 Fatt tpot honeypotun ülkelere göre durumları Şekilde gösterilmektedir.
+
+
 
 
 
