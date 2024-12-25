@@ -21,13 +21,13 @@ Kaliden metasploitin açık olan portlardan ftp olan 23.porta DDOS saldırı ger
 
 ![Wireshark filtreleme_1](https://github.com/user-attachments/assets/b1a895bb-d601-4ba0-b2d9-1a2710ddac09)
 
-*Wireshark filtreleme incelemesi**
+*Wireshark filtreleme incelemesi*
 
 Wireshark ağ trafiği incelemesinde filtrelemeye göre inceleme yapabilmek için ip.addr== ilgili ip adresi (metasploitin adresi) yazılıp ve deyip incelenmesi istenen portlar köşeli parantezin içine belirtilip dışına tcp.port in {port numaraları} olarak Şekil de görülmektedir. Ağ trafiği izleme aracı olan wireshark da 71341 paketin 99,9% olarak trafik ağı incelemesi gerçekleştirilmiştir.
 
 ![Wireshark_filtreleme_2](https://github.com/user-attachments/assets/35990928-b1e6-4a9a-b09c-2ff16195d66b)
 
-*Wireshark ağ trafiği inceleme**
+*Wireshark ağ trafiği inceleme*
 
 Yapılan DDOS saldırısı sonrası wiresharktaki yapılan filtreleme sonucu detaylı inceleme sonucu Şekilde görülmektedir. Internet Protocol version 4 de src(source;kaynak) kalinin ip adresi dst(destiantion;son durak) ise metasploitin ip adresi olup 23 port olan telnete saldırının gerçekleştiği görülmektedir. 
 Ağ trafiği izleme aracı olarak toplam kaç paketin gönderildiği ve hangi porta saldırının gerçekleştiği belirlenmektedir. 
@@ -36,14 +36,11 @@ Ağ trafiği izleme aracı olarak toplam kaç paketin gönderildiği ve hangi po
 
 ![Honeypot_attack_sonuc](https://github.com/user-attachments/assets/5ec8b514-5902-4afd-b67a-bd91cdcd2172)
 
-*Honeypot attacks bar ve histogram grafiği**
+*Honeypot attacks bar ve histogram grafiği*
 
 Kaliden metasploite yapılan saldırı sonrası yapılan saldırının honeypota düşmesi sonucu saldırgan gerçek bilgiyi aldığını zannedip arkasında kendisine ait birçok kayıt bırakmaktadır. Saldırı gerçek sisteme değil honeypot sistemine ulaşıp saldırıya ait bar grafiği, histogram grafikleri ve tpotu oluşturan kaynak ip adresi sistemine saldırının gerçekleştiği Şekil  de gösterilmektedir.
 
-
-
-
-
+![Ciscoasa tpotda saldırı histogram grafiği](https://github.com/user-attachments/assets/29f1e4c1-2213-4d05-b8ac-3155d148f222)
 
 *Ciscoasa tpotda saldırı histogram grafiği**
 
