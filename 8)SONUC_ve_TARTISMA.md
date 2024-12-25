@@ -17,8 +17,7 @@
 Kaliden metasploitin açık olan portlardan ftp olan 23.porta DDOS saldırı gerçekleştirilmiştir (Şekil ).
 
 **Wireshark İncelemesi**
-
-![Wireshark_filtreleme_1](https://github.com/user-attachments/assets/37a176bc-d311-4fa7-956b-8166cea11581)
+![Wireshark filtreleme_1](https://github.com/user-attachments/assets/b1a895bb-d601-4ba0-b2d9-1a2710ddac09)
 *Wireshark filtreleme incelemesi**
 Wireshark ağ trafiği incelemesinde filtrelemeye göre inceleme yapabilmek için ip.addr== ilgili ip adresi (metasploitin adresi) yazılıp ve deyip incelenmesi istenen portlar köşeli parantezin içine belirtilip dışına tcp.port in {port numaraları} olarak Şekil de görülmektedir. Ağ trafiği izleme aracı olan wireshark da 71341 paketin 99,9% olarak trafik ağı incelemesi gerçekleştirilmiştir.
 
