@@ -97,7 +97,7 @@ SaaS hizmetlerinin bağlantı noktaları ve kullanılabilirliği coğrafi konumu
 Bazı honeypotların tam işlevselliğe ulaşması için (örneğin Cowrie veya Log4Pot) saldırganın kötü amaçlı yazılımını indirebilmeleri için giden bağlantılar da gereklidir. 
 T-Pot, Debian (Stable) ağ yükleyicisine dayanmaktadır.Honeypotdaemonlarının yanı sıra diğer destek bileşenleri de yerleştirilmiştir. 
 Bu, T-Pot'un aynı ağ arayüzünde birden fazla honeypot daemonunu ve aracını çalıştırmasına izin verirken, küçük bir ayak izini korur ve her bal küpünü kendi ortamında sınırlar (Çiroğlu, 2020). 
-T-POT, ücretsiz olarak dağıtılmaktadır. Güncel derlenmiş kurulum dosyasını “https://github.com/ telekom-security/tpotce” web sitesinden debian12 iso dosyası indirilmiştir. 
+T-POT, ücretsiz olarak dağıtılmaktadır. Güncel derlenmiş kurulum dosyası “https://github.com/telekom-security/tpotce” web sitesinden debian12 iso dosyası indirilmiştir. 
 İndirilmiş olan iso dosyasını sanal makineye yükleme ve kurulum işlemleri gerçekleştirilmiştir. 
 Ancak debian12 iso dosyasında ssh ayarlamalarında sorun yaşandığından dolayı Ubuntu ıso dosyası ile kurulumda gerekli ssh ayarlamaları ile cockpit ve web erişim sistemlerine erişilmiştir (Url-10). 
 
