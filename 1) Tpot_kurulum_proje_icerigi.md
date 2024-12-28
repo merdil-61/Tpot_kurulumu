@@ -68,7 +68,9 @@ Ekler
  
  EK-3. Tpot Ubuntu server honeypota) yapılan saldırı sonrası 11.12.2024 deki spiderfoot taraması
  
- EK-4. Metasploite yapılan 13.12.2024 spiderfoottaramasısonucu
+ EK-4. Metasploite yapılan saldırının 13.12.2024 spiderfoot taraması sonucu
+ 
+ EK-5. iot adresine yapılan saldırı 11.12.2024 spiderfoot taraması soncu
  
  EK-5. T-pot adresine ait (honeypot Ubuntu server) saldırı sonrası 13.12.2024 spiderfootprint taraması
  
