@@ -48,7 +48,7 @@ Tpot honeypot türlerinden olan Ciscoasada saldırının nasıl bir etki değiş
 
 ![Cowrie_attack, bar_ve_histogram_grafikleri](https://github.com/user-attachments/assets/c199f3e5-6d17-4646-928f-922b235a2ca9)
 
-*Cowrie attack, bar ve histogram grafikleri**
+*Cowrie attack, bar ve histogram grafikleri*
 
 Bir saldırgan tarafından gerçekleştirilen kaba kuvvet saldırılarını ve kabuk etkileşimini log olarak kaydetmek için tasarlanmış orta düzeyde etkileşimli bir SSH ve Telnet honeypot olan Cowrie de yapılan saldırı sonrası  bar ve histogram grafikleri Şekilde gösterilmektedir.
 
@@ -60,7 +60,7 @@ Dioneaya özel dashboard sonuç grafikleri Şekilde görülmektedir.
 
 ![Honeytrap_sonuc](https://github.com/user-attachments/assets/6a65f776-80e1-4c1a-86e0-8b6498fce8e3)
 
-**Honeytrap sonuç*
+*Honeytrap sonuç*
 
 Saldırı sonrası Tpotun içinde yer alan honeytrap sonuç değişimleri Şekil de görülmektedir.
 
@@ -106,65 +106,45 @@ Fatt tpot honeypotun sonucu Şekilde gösterilmektedir.
 
 ![fatt_tpot_ulkelere_gore_durumu](https://github.com/user-attachments/assets/cf22e218-bd80-4ad9-8c9b-19ee9eb9fa25)
 
-*Fatt tpotun ülkelere göre durumları**
+*Fatt tpotun ülkelere göre durumları*
 Fatt tpot honeypotun ülkelere göre durumları Şekilde gösterilmektedir.
 
 
+![tpot_ıp](https://github.com/user-attachments/assets/10ed88fd-2baa-4b49-9ae9-33b1cb407278)
 
+*Fatt tpotun http ve port-ıp durumunu gösteren grafikler*
 
-
-
-
-*Fatt tpotun http ve port-ıp durumunu gösteren grafikler**
 Fatt tpot honeypotun http ve port-ıp durumunu gösteren grafikler Şekilde gösterilmektedir.
 
-
-
-
-
-
+![Fatt tpot honeypotun URI, AS-N ve kaynak ip adresleri](https://github.com/user-attachments/assets/50618132-e545-470f-96e9-7b7e2020a461)
 
 *Fatt tpot honeypotun URI, AS/N ve kaynak ip adresleri**
 Fatt tpot honeypotda yapılan saldırılara göre URL,AS/Nve kaynak ip adresleri Şekil de gösterilmektedir.
 
+![tanner_tpot](https://github.com/user-attachments/assets/0a525fa8-9ba8-41c7-be5d-7ee525f2b798)
 
+*Tanner tpotun saldırı sonrası durumu*
 
-
-
-
-*Tanner tpotun saldırı sonrası durumu**
 Tanner tpot honeypotta yapılan saldırı etkisi Şekilde gösterilmektedir.  
 
-
-
-
+![Tanner tpotun http e göre pasta sonuç grafikleri](https://github.com/user-attachments/assets/be4ab6a0-750b-45d1-8bd9-839934e322c9)
 
 **Tanner tpotun http e göre pasta sonuç grafikleri*
 Tanner tpot honeypotun http e göre pasta sonuç grafikleri Şekilde gösterilmektedir.
 
+![Tanner tpota etki eden  IP ve url adresleri](https://github.com/user-attachments/assets/d1c2a1c5-b14f-48ec-ac33-465a9b74d190)
 
-
-
-
-
-
-
-Tanner tpota etki eden  IP ve url adresleri
+*Tanner tpota etki eden  IP ve url adresleri*
 Tanner tpot honeypota etki eden IP ve url adresleri Şekilde gösterilmektedir.
 
-
-
-
 **Spiderfoot**
-Ağ güvenliği, ağ ile dijital dünya arasında değiş tokuş edilen verilerin kullanılabilirliğini ve bütünlüğünü korumak için tasarlanmış önlemleri ve faaliyetleri ifade eder. Bilgi güvenliği hem donanım hem de yazılım teknolojilerini kullanarak dijital verileri yetkisiz erişime, ifşaya, manipülasyona, değiştirmeye veya yok etmeye karşı korur.  Bilgi güvenliği alanında çalışan uzmanlar tarafından yapılan bir analize göre, orta ölçekli bir şirkete ayda yirmi binden fazla siber saldırı yapılıyor. Yapılan analizler sonucunda saldırıların çoğunda risk seviyesi yüksek olmasa da önemli veriler için yoğun bir tehlike olduğu ve bu saldırıların şiddetinin arttığı tespit edilmiştir.  Spider Foot Tehdit Güvenlik Haritası istihbarat otomasyon aracıdır.  Mevcut hemen hemen her veri kaynağıyla entegre olur ve veri analizi için bir dizi yöntem kullanarak bu verilerde gezinmeyi kolaylaştırır. Temiz ve sezgisel web tabanlı arayüz sağlamak için gömülü bir web sunucusuna sahiptir, ancak tamamen komut satırı üzerinden de kullanılabilen Python 3 ile yazılmıştır ve MIT( GPL) lisanslıdır (Url-11). SpiderFoot, hedefinizin keşfi için saldırgan olarak (örneğin bir kırmızı ekip tatbikatında veya sızma testinde) veya sizin veya kuruluşunuzun İnternet üzerinden neleri açığa çıkarmış olabileceği hakkında bilgi toplamak için savunmacı olarak kullanılabilir. Hayes & Cappa (2018),Osint'in kritik altyapısına yönelik potansiyel siber saldırıları önlemek amacıyla şirket için risk değerlendirmeleri yapmak için tpot honeypotun kullanılabileceğini göstermiştir. Bir SpiderFoot taramasında IP adresi, Etki alanı/alt etki alanı adı, Ana bilgisayar adı, Ağ alt ağı (CIDR) , ASN, E-posta adresi, Telefon numarası, Kullanıcı Adı, Kişinin adı, ve Bitcoin adresi hedeflenmektedir (Arul, 2022; Url-11). 
 
+Ağ güvenliği, ağ ile dijital dünya arasında değiş tokuş edilen verilerin kullanılabilirliğini ve bütünlüğünü korumak için tasarlanmış önlemleri ve faaliyetleri ifade eder.
+Bilgi güvenliği hem donanım hem de yazılım teknolojilerini kullanarak dijital verileri yetkisiz erişime, ifşaya, manipülasyona, değiştirmeye veya yok etmeye karşı korur.  Bilgi güvenliği alanında çalışan uzmanlar tarafından yapılan bir analize göre, orta ölçekli bir şirkete ayda yirmi binden fazla siber saldırı yapılıyor. Yapılan analizler sonucunda saldırıların çoğunda risk seviyesi yüksek olmasa da önemli veriler için yoğun bir tehlike olduğu ve bu saldırıların şiddetinin arttığı tespit edilmiştir.  Spider Foot Tehdit Güvenlik Haritası istihbarat otomasyon aracıdır.  Mevcut hemen hemen her veri kaynağıyla entegre olur ve veri analizi için bir dizi yöntem kullanarak bu verilerde gezinmeyi kolaylaştırır. Temiz ve sezgisel web tabanlı arayüz sağlamak için gömülü bir web sunucusuna sahiptir, ancak tamamen komut satırı üzerinden de kullanılabilen Python 3 ile yazılmıştır ve MIT( GPL) lisanslıdır (Url-11). 
+SpiderFoot, hedefinizin keşfi için saldırgan olarak (örneğin bir kırmızı ekip tatbikatında veya sızma testinde) veya sizin veya kuruluşunuzun İnternet üzerinden neleri açığa çıkarmış olabileceği hakkında bilgi toplamak için savunmacı olarak kullanılabilir. Hayes & Cappa (2018),Osint'in kritik altyapısına yönelik potansiyel siber saldırıları önlemek amacıyla şirket için risk değerlendirmeleri yapmak için tpot honeypotun kullanılabileceğini göstermiştir. Bir SpiderFoot taramasında IP adresi, Etki alanı/alt etki alanı adı, Ana bilgisayar adı, Ağ alt ağı (CIDR) , ASN, E-posta adresi, Telefon numarası, Kullanıcı Adı, Kişinin adı, ve Bitcoin adresi hedeflenmektedir (Arul, 2022; Url-11). 
 
-
-
-
-
-
+![Spider_foot_tarama sonucları_toplu](https://github.com/user-attachments/assets/c6fff5b5-5b5d-45aa-80aa-a0eac3b2a4d1)
 
 İlgili sistemde yapılan taramalarda spiderfootlarda özellikle honeypotu içeren ip adreslerinde tehdit algılaması görülmektedir. Böylece bilgilerimizi korumak adına kurumsal şirketlerde honeypot gibi sistemlerin kullanımının önemli olduğu alınan sonuçlarla ispatlanmıştır. Honeypotlar kendi sahte verileri ile saldırganı çeker ve saldırgan bu veriyi gerçek veri zanneder. Sonuçta spiderfootda tehlike durumlarına göre değerlendirmede ilgili tpot honeypot ip adresi  daha fazla etkilenir iken hedefte olan ip etkilenmediği görülmektedir. Hem saldırılan hedef hem de honeypot sistemine ait ip adresleri hedef olarak gösterilerek belli sonuçlar alınmıştır. Sonuçlara göre hedeflenen metasploite (EK-2, EK-3, EK-6)  veya iota (EK-4) ait hedef sonuçlarında spiderfoot etkisinde ilişki matrisleri sıfır olarak görülmektedir. Ancak genel sahte verileri içeren honeypot sistemine ait yapılan taramalarda spiderfoot taramasındaki ilişkiler sıfır olmamakla birlikte burda saldırgan arkasında birçok iz bırakmıştır (EK-5 ve EK-7). Hem kibana ekranında bunu görmekteyiz hemde spiderfoot taramasında bu görülmektedir. Hedefe göre yapılan saldırılarda az element var iken honeypotun içermiş olduğu sistemlerde elementler (EK-5 ve EK-7) fazladır. EK-8 de ise yapılan saldırılara yönelik kayıtların keşefidilip tutulduğu Discover—Logstash bilgilerini içeren ekran görüntüsü görülmektedir.EK -9 da ülkelerden kendi ülkene saldırı olduğu zaman hangi porta yönelik (ftp,telnet,ssh gibi) olduğunu gösteren Attack map haritası görülmektedir. Ek-10 da ise eğer bir dosya şifreli ise cyberchef kullanılabileceğine yönelik ilgili ekran görülmektedir. EK-11 de ise elasticvue anket değerlendirmesi sayfa resmi gösterilmiştir. EK-12, EK-13, E-14 ve EK-15 de Tpot honeypotta yer alan SecurityMeter ülkelere ve çeşitli port gibi önemli bilgilere göre durumlar gösterilmiştir.
 
-
+EK-1 de ise yapılan projenin GANT şeması yer almaktadır.
