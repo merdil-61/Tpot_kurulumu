@@ -61,6 +61,7 @@ SONUÇ VE TARTIŞMA
 Referans
 
 Ekler
+
  EK-1. Projenin Gant şeması
  
  EK-2. Metasploit adresine ait 09.12.2024 de yapılan spiderfoot taraması
