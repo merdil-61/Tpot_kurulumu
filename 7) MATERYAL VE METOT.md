@@ -103,82 +103,104 @@ Ancak debian12 iso dosyasında ssh ayarlamalarında sorun yaşandığından dola
 
 ![ubuntu_ıso_dosyası_yuleme_1](https://github.com/user-attachments/assets/ecde9101-c330-4235-b09c-086c1b478f3c)
 
-Ubuntu ıso dosyasının sanal makineye yüklenmesi işlemi
+**Şekil 4.** Ubuntu ıso dosyasının sanal makineye yüklenmesi işlemi
 
 ![ubuntu_dil_ayari](https://github.com/user-attachments/assets/59a07bdd-c4db-43b4-aff9-4388255c03c4)
 
-Ubuntu dil ve klavye ayarlaması Şekilde gösterilmektedir.
+**Şekil 5.** Ubuntu dil ve klavye ayarlaması
+
+Ubuntu dil ve klavye ayarlaması Şekil 5 de gösterilmektedir.
 
 ![ubuntu_serve_dyasi_proxysiz_yukleme](https://github.com/user-attachments/assets/242a4a07-a58f-4e1f-bf72-1734312d682b)
 
-Ubuntu server dosyasının ve proxysiz dosyanın yüklenmesi Şekilde gösterilmektedir.
+**Şekil 6.** Ubuntu serverin proxysiz  yüklenmesi
+
+Ubuntu server dosyasının ve proxysiz dosyanın yüklenmesi Şekil 6 da gösterilmektedir.
 
 ![ubuntu_ıso_dosyası_yukleme_son_islem](https://github.com/user-attachments/assets/9baa9ed9-0f41-4791-8708-9fa5410d4e41)
 
-Ubuntu ıso dosyasının sanal makine yüklemek için gerekli son işlemler Şekilde gösterilmektedir.
+**Şekil 7.** Ubuntu ıso dosyasının son işlemi
+
+Ubuntu ıso dosyasının sanal makine yüklemek için gerekli son işlemler Şekil 7 de gösterilmektedir.
 
 ![T_pot_installer_kurulumu](https://github.com/user-attachments/assets/861f525c-883a-4c5f-8c51-24f3e1d1bb17)
 
-Şekil. Tpot installer(kurulumu)
+**Şekil 8.** Tpot installer(kurulumu)
 
 Sanal makineye Ubuntu server ıso dosyası kurulumu ve gerekli işlemlerin yapılmasından sonra tpot kurulumu işlemlerine geçilmiştir. 
-Tpot kurulumu için ilk başta “ git clone https://github.com/telekom-security/tpotce.git ” ile ilgili Tpot kurulum işlemlerinin işlemi gerçekleşmiş oldu (Url-10) (Şekil).
+Tpot kurulumu için ilk başta “ git clone https://github.com/telekom-security/tpotce.git ” ile ilgili Tpot kurulum işlemlerinin işlemi gerçekleşmiş oldu (Url-10) (Şekil 8).
 
 ![T_pot_isntaller_işlemeinde_yukleme_goruntusu](https://github.com/user-attachments/assets/b4606a5e-fe61-4271-a5a7-94f6ea970239)
 
-“~/tpotce/install.sh” ile Tpot installer işlemlerine Şekil de görüldüğü gibi installe y (yes) denilenerek Tpot kurulumuna başlanmış oldu.
+**Şekil 9.** Tpot installer(kurulum) işlemleri
+
+“~/tpotce/install.sh” ile Tpot installer işlemlerine Şekil 9 da görüldüğü gibi installe y (yes) denilenerek Tpot kurulumuna başlanmış oldu.
 
 ![Tpot_installer yüklemesi](https://github.com/user-attachments/assets/962e7e2d-637e-4d20-8152-ed1349de85e4)
+**Şekil 10.** Tpot tipi seçimi
 
-Tpot kurulumu sonrasında tpot tipi seçimi için (H)ive, (S)ensor, (M)obile gibi üç farklı Tpot tipine göre hive olarak seçim gerçekleştirildi (Şekil).
+Tpot kurulumu sonrasında tpot tipi seçimi için (H)ive, (S)ensor, (M)obile gibi üç farklı Tpot tipine göre hive olarak seçim gerçekleştirildi (Şekil 10).
 
 ![T_pot_honeypotlar_yuklenenler](https://github.com/user-attachments/assets/4cfbc246-03a3-4825-b0bb-028c5833a7a3)
 
-Kurulan Tpot ile yüklenen honeypotlar Şekilde görülmektedir.
+**Şekil 11.** Yüklenen honeypotlar
+
+Kurulan Tpot ile yüklenen honeypotlar Şekil 11 de görülmektedir.
 
 ![T_pot_honeypot](https://github.com/user-attachments/assets/7ba3aa83-f875-413d-9819-0c8b13ffcbd9)
 
-Yapılan tüm işlemler soncu ilgili ssh ayarlamaları ve yeniden başlatma ile ilgili ssh ayarlama işlemleri öncesi kurulum Şekilde görülmektedir. Tüm bu ayarlamalar soncu web adresine ulaşmak için Tpot’un  ip adresini doğru öğrenebilmek için ip a ile ilgili ip adresi öğrenilmiştir.
+**Şekil 12.** Tpot  yüklenme ekranı
+
+Yapılan tüm işlemler soncu ilgili ssh ayarlamaları ve yeniden başlatma ile ilgili ssh ayarlama işlemleri öncesi kurulum Şekil 12 de görülmektedir. Tüm bu ayarlamalar soncu web adresine ulaşmak için Tpot’un  ip adresini doğru öğrenebilmek için ip a ile ilgili ip adresi öğrenilmiştir.
 Debian 12 ile tpot kurulumunda ssh ayarlamalarında sorun yaşandığından dolayı Ubuntu ıso dosyası ile tpot kurulumu ile hem web adresi https://IP adresi:64293 ile Ubuntu ekranına oradan da gerekli ayarlamalar ile https://IP adresi:64297 cockpit adresi (Kibana-Tpot)ekranına ulaşılmıştır.
 
 ![Ubuntu server ile yüklenen Tpot sanal makinesi](https://github.com/user-attachments/assets/7407f595-ea19-4a81-b8db-5acb33f799be)
 
-Şekil. Ubuntu serverdeki ile Tpot sanal makinesi
+**Şekil 13.** Ubuntu serverdeki ile Tpot sanal makinesi
 
-Vmwarede tüm Tpot kurulumu sonrasında sanal makine içindeki Tpot sanal makinesinin ekranı Şekilde görülmektedir.
+Vmwarede tüm Tpot kurulumu sonrasında sanal makine içindeki Tpot sanal makinesinin ekranı Şekil 13 de görülmektedir.
 
 ![Tpot honeypot-ubuntu server ekranı](https://github.com/user-attachments/assets/4dc45899-1a31-4d39-8370-5e4ad1bcb768)
 
-Tpot honeypot-ubuntu server ekranı
+**Şekil 14.** Tpot honeypot-ubuntu server ekranı
 
-Tpot sanal makinesi açıldığında ubuntunun server ekranı Şekilde görülmektedir.
+Tpot sanal makinesi açıldığında ubuntunun server ekranı Şekil 14 de görülmektedir.
 
 Tpot honeypota ait ip adresini öğrenmek için ip a veya ifconfig yazarak ens 33 de yer alan ip adresi öğrenilmektedir.
 
 ![T_potun serverdeki çalışma durumu](https://github.com/user-attachments/assets/98f52ac6-47e4-46d5-ba48-fd5f2029ee78)
+**Şekil 15.** T_potun serverdeki çalışma durumu
 
 Ubuntu serverde tpotu başlatmak için sudo systemctl start tpot denilerek sistem başlatılır. 
-Sistemin çalışır olup olmadığını sudo systemctl status tpot denilerek sorgulanmaktadır.
+Sistemin çalışır olup olmadığını sudo systemctl status tpot denilerek sorgulanmaktadır (Şekil 15).
 
 ![weberisimsistemi](https://github.com/user-attachments/assets/52f2d036-2c6a-41bb-a12a-8855d357376d)
+**Şekil 16.** Web erişim sistemi
 
-https://ip adresi:64293 ile web erişim (ubuntu) sistemine girilmiştir. Kullanıcı adı ve şifre ile  sisteme girilmektedir.
+https://ip adresi:64293 ile web erişim (ubuntu) sistemine girilmiştir. Kullanıcı adı ve şifre ile  sisteme girilmektedir(Şekil 16).
 
 ![Web_sisteminde_yer alan_terminalden sistemin_calıstıgını gosteren_komut_ve_ciktilar](https://github.com/user-attachments/assets/bb694332-273b-4c5f-b6a2-934cdf2f708e)
 
-Web sisteminde yer alan terminalden sistemin çalıştığını gösteren komut ve çıktılar Şekilde görülmektedir.
+**Şekil 17.** Web sisteminde yer alan terminalden sistemin çalıştığını gösteren komut ve çıktılar 
+
+Web sisteminde yer alan terminalden sistemin çalıştığını gösteren komut ve çıktılar Şekil 17 de görülmektedir.
 
 ![T_pot_ekranına_ulasmak_icin_sisteme](https://github.com/user-attachments/assets/bdc8c2dc-c50a-4940-86a8-2c6a36de9c59)
 
-https://ip adresi:64297 yazılarak aşağıda yer alan ip adresi sistemine ilerle (güvenli değil) basılarak  sisteme geçiş yapılır (Şekil ). 
+**Şekil 18.** https://ip adresi:64297
+
+https://ip adresi:64297 yazılarak aşağıda yer alan ip adresi sistemine ilerle (güvenli değil) basılarak  sisteme geçiş yapılır (Şekil 18 ). 
+
 Yan taraftaki sekmeden https://ip adresi:64297 ile web erişim ekranına(kibanaya) erişme ekranına gerekli kullanıcı adı ve şifre yazılarak kibana ekranına ulaşılmaya gidilmektedir.
 
 ![T_pot_kibana_ekrani](https://github.com/user-attachments/assets/1a2c8a6e-b3ca-4adf-a942-91b650e88a77)
 
-https://ip adresi:64297 ile Tpot cockpit erişim ekranına ulaşılmıştır. Bu ekranda Attack Map, Cyberchef, Elasticvue, Kibana, Spiderfoot, SecurityMeter, T-pot Readme, T-pot @ Github bölümlerinden oluşmaktadır.
+**Şekil 19.** Tpot kibanaya erişme ekranı
+
+https://ip adresi:64297 ile Tpot cockpit erişim ekranına(Kİbanaya) ulaşılmıştır. Bu ekranda Attack Map, Cyberchef, Elasticvue, Kibana, Spiderfoot, SecurityMeter, T-pot Readme, T-pot @ Github bölümlerinden oluşmaktadır.
 
 ![Elastic_ekran](https://github.com/user-attachments/assets/bde62a16-2054-4104-8f8d-6a0bb0b58d7b)
 
-Dashboards ekranı
+**Şekil 20.** Dashboards ekranı
 
-“Kibana” > Dashboard > “T-Pot” olarak sırasıyla tıklanıp saldırının etkisine bakılarak grafik ve sonuçlar analiz edilir.
+“Kibana” > Dashboard > “T-Pot” olarak sırasıyla tıklanıp saldırının etkisine bakılarak grafik ve sonuçlar analiz edilir(Şekil 20).
