@@ -1,0 +1,5 @@
+![Tpothoneypota ait IPnin 13 12 2024 spiderfoot tarama sonucu](https://github.com/user-attachments/assets/475aa3ef-238a-446c-bf13-a070bf536c51)
+![tpothoneypotdetay-3](https://github.com/user-attachments/assets/66dfad91-abdf-4bed-a9f7-008ff9c45c86)
+![tpothoneypotdetay-4](https://github.com/user-attachments/assets/3fc3af13-5c77-4949-87f6-e11f51c7ba27)
+![tpothoneypotdetay-5](https://github.com/user-attachments/assets/528f6661-7d89-4aeb-a150-eb853c8eaafc)
+![tpothoenypotdetay-6](https://github.com/user-attachments/assets/d9d2a92e-46b5-4974-b8dc-8b700b71b800)
