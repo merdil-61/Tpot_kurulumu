@@ -62,10 +62,15 @@ Referans
 
 Ekler
  EK-1. Projenin Gant şeması
+ 
  EK-2. Metasploit adresine ait 09.12.2024 de yapılan spiderfoot taraması
+ 
  EK-3. Tpot Ubuntu server honeypota) yapılan saldırı sonrası 11.12.2024 deki spiderfoot taraması
+ 
  EK-4. Metasploite yapılan 13.12.2024 spiderfoottaramasısonucu
+ 
  EK-5. T-pot adresine ait (honeypot Ubuntu server) saldırı sonrası 13.12.2024 spiderfootprint taraması
+ 
  EK-6.Tpot honeypota ait discover logtash kaydı
  
    
